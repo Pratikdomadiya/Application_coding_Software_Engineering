@@ -32,9 +32,7 @@ Experience the power of Apache Airflow in automating workflows and managing pipe
 
 I'll guide you through the intricacies of migrating data across clouds, exhibiting my understanding of cloud APIs, secure migration strategies, and data formats.
 
-## Getting Started
-
-To embark on this journey through software engineering excellence, follow these steps:
+## Let's Get Started
 
 ## Contact
 
