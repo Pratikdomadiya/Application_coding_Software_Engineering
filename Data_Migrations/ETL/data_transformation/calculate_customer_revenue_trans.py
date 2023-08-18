@@ -14,6 +14,9 @@ def calculate_customer_revenue(customers_file, orders_file):
 
     Returns:
         pandas.DataFrame: DataFrame with customer IDs and their total revenue.
+
+    Author : Pratik Domadiya
+    Team : Customer Data Analytics
     """
     customers = pd.read_csv(customers_file)
     orders = pd.read_csv(orders_file)

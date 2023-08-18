@@ -15,6 +15,9 @@ def calculate_total_sales(input_file):
 
     Returns:
         pandas.DataFrame: DataFrame with product names and their total sales.
+
+    Author : Pratik Domadiya
+    Team : Customer Data Analytics
     """
     data = pd.read_csv(input_file)
     product_sales = data.groupby('product')['sales'].sum().reset_index()
