@@ -1,1 +1,11 @@
-asdasd
+
+3 codes - python only
+
+1. create a pipeline execution - 3 functions - with "yield" - sum - Square - Root - (producer - consumer
+functions are given).
+
+2. implement class functionalities - buil-in methods (ex. len(obj), getattr(obj, command)) - create
+constructor with 5 arguments(named) and check for all objects and Raised "AttributeError" when calling "getattr" built-in method
+ and attribute not found for specific object.
+
+3. SQL code using python - join - orderby - filter - sqllite3
