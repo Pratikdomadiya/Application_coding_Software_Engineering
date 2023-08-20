@@ -3,6 +3,21 @@ from azure.storage.blob import BlobServiceClient
 
 
 def extract_data(connection_string, container_name):
+    """
+       Extracts data from blobs within an Azure Blob Storage container.
+
+       Args:
+           connection_string (str): The connection string for accessing the Azure Blob Storage.
+           container_name (str): The name of the container within the Blob Storage.
+
+       Returns:
+           list: A list containing the extracted data from each blob within the container.
+
+        Developer: Pratik Domadiya
+        Team: Cloud Data Extraction Team
+       """
+
+
     blob_service_client = BlobServiceClient.from_connection_string(connection_string)
     container_client = blob_service_client.get_container_client(container_name)
 
