@@ -9,3 +9,9 @@ constructor with 5 arguments(named) and check for all objects and Raised "Attrib
  and attribute not found for specific object.
 
 3. SQL code using python - join - orderby - filter - sqllite3
+
+
+MY PERFORMANCE :
+
+- I did only question 3 - SQL using python
+- I didn't know YIELD concepts and "built-in" method concept that time.
