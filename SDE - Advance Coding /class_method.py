@@ -88,7 +88,7 @@ class Pizza:
         self.ingredients = ingredients
         self.radius = radius
 
-    def __repr__(self):
+    def __repr__(self): # a built-in method in Python that returns a string representation of an object
         return f'Pizza({self.ingredients!r})'
 
     '''
