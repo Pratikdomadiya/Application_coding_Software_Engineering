@@ -1,4 +1,5 @@
 # Instance, Class, and Static Methods — An Overview
+# Factory design pattern
 import math
 
 
