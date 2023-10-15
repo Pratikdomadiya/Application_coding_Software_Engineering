@@ -1,6 +1,7 @@
 ======================= steps to create a documentation using sphinx =========================
 
 source : https://towardsdatascience.com/documenting-python-code-with-sphinx-554e1d6c4f6d
+alternative : https://pdoc.dev/docs/pdoc.html#integrate-pdoc-into-other-systems
 
 # Check your sys paths first
 python -c "import sys; print(sys.path)"
