@@ -1,0 +1,40 @@
+======================= steps to create a documentation using sphinx =========================
+
+source : https://towardsdatascience.com/documenting-python-code-with-sphinx-554e1d6c4f6d
+
+# Check your sys paths first
+python -c "import sys; print(sys.path)"
+
+if your project path is not available than add it using following command. In my case my project folder name is "new_gbir_pipeline", so I added following path.
+
+# Add new sys path
+export PYTHONPATH=$/Users/pratikdomadiya/PycharmProjects/testCode/new_gbir_pipeline
+
+if you are in testCode dir:  For ex. Your project directory located at : /users/testCode/your_project_folder/
+
+Go to testCode dir >> 
+- cd testCode
+- mkdir docs
+- cd docs
+- sphinx-quickstart
+
+Go to your conf.py file and uncomment line numbers 13,14 and 15. Change the os.path.abspath('.') to os.path.abspath('..'). Here, we tell sphinx that the code is residing outside of the current docs folder.
+
+Now go to the extensions part and add the extensions given below.
+
+extensions = [
+    'sphinx.ext.autodoc',
+    'sphinx.ext.viewcode',
+    'sphinx.ext.napoleon'
+]
+
+- Lastly, go to themes and replace ‘alabaster’ with ‘sphinx_rtd_theme’
+
+- cd .. # go to testCode dir
+- sphinx-apidoc -o docs ./new_gbir_pipeline
+- cd docs
+- make html
+
+
+
+
